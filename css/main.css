@@ -1,0 +1,453 @@
+@font-face {
+    font-family: 'Monserrat Regular';
+    src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Monserrat SemiBold';
+    src: url('../fonts/Montserrat-SemiBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Monserrat Bold';
+    src: url('../fonts/Montserrat-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Monserrat Medium';
+    src: url('../fonts/Montserrat-Medium.ttf') format('truetype');
+}
+body {
+    margin: 0;
+}
+.foniture-community-navigation-section {
+    margin: 2.6em 0;
+}
+.forniture-community-wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.foniture-community-navigation-content {
+    display: flex;
+    width: 100%;
+}
+.foniture-community-navigation-content > div {
+    width: 50%;
+}
+.foniture-community-navigation-logo img {
+    width: 167px;
+}
+.foniture-community-navigation-links ul {
+    display: flex;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
+}
+.foniture-community-navigation-links ul li {
+    list-style: none;
+    padding: 0.4em 0 0.4em 4.1em;
+}
+.foniture-community-navigation-links ul li a {
+    font-family: 'Monserrat SemiBold';
+    font-size: 14px;
+    color: rgba(51, 51, 51, 1);
+    text-decoration: none;
+}
+.foniture-community-navigation-links ul li a:hover {
+    color: rgba(5, 76, 115, 0.75);;
+}
+
+.foniture-community-hero-section {
+    background-image: url('../images/forniture-community-hero.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+}
+.forniture-community-hero-content {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 750px;
+}
+.foniture-community-hero-card-discover {
+    background-color: rgba(223, 233, 244, 1);
+    box-sizing: border-box;
+    border-radius: 10px 10px;
+    padding: 3.2em;
+    width: 643px;
+}
+.foniture-community-hero-card-discover h5 {
+    font-family: 'Monserrat SemiBold';
+    font-size: 16px;
+    color: rgba(51, 51, 51, 1);
+    margin: 0;
+}
+.foniture-community-hero-card-discover h1 {
+    font-family: 'Monserrat Bold';
+    font-size: 52px;
+    color: rgba(5, 76, 115, 1);
+    margin: 0.4em 0;
+}
+.foniture-community-hero-card-discover p {
+    font-family: 'Monserrat Medium';
+    font-size: 18px;
+    color: rgba(51, 51, 51, 1);
+    line-height: 2.1em;
+    margin: 0 0 1.3em 0;
+}
+.foniture-community-hero-card-discover a {
+    background-color: rgba(5, 76, 115, 1);
+    border-radius: 50px 50px;
+    box-sizing: border-box;
+    color: rgba(255, 255, 255, 1);
+    display: block;
+    font-family: 'Monserrat Bold';
+    font-size: 16px;
+    padding: 1.6em 2.6em;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: center;
+    width: 230px;
+}
+
+.forniture-community-offer-section {
+    background-color: rgba(242, 245, 255, 1);
+}
+.forniture-community-offer-content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.forniture-community-offer-card {
+    background-repeat: no-repeat;
+    background-position: center left;
+    margin: 0 3%;
+    padding: 2.3em 0;
+    width: 33.33%;
+}
+.forniture-community-offer-card h4 {
+    font-family: 'Monserrat SemiBold';
+    font-size: 24px;
+    color: rgba(51, 51, 51, 1);
+    margin: 0;
+}
+.forniture-community-offer-card p {
+    font-family: 'Monserrat Regular';
+    font-size: 16px;
+    color: rgba(51, 51, 51, 1);
+    margin: 0;
+}
+.free-delivery {
+    background-image: url('../icons/free-delivery-icon.svg');
+    background-size: 83px;
+    padding-left: 100px;
+}
+.support {
+    background-image: url('../icons/support-icon.svg');
+    background-size: 60px;
+    padding-left: 77px;
+}
+.authentic {
+    background-image: url('../icons/authentic-icon.svg');
+    background-size: 55px;
+    padding-left: 72px;
+}
+
+.foniture-community-inspiration-collection-section {
+    margin: 0.2em 0 3.2em 0;
+}
+.forniture-community-inspiration-collection-title {
+    text-align: center;
+    padding: 1.6em 0;
+}
+.forniture-community-inspiration-collection-title h1 {
+    font-family: 'Monserrat Bold';
+    font-size: 32px;
+    color: rgba(51, 51, 51, 1);
+}
+.forniture-community-inspiration-collection-title p {
+    font-family: 'Monserrat Regular';
+    font-size: 20px;
+    color: rgba(102, 102, 102, 1);
+}
+.foniture-community-inspiration-collection-content {
+    box-sizing: border-box;
+    display: flex;
+    padding: 0 38px;
+    gap: 30px;
+    width: 100%;
+}
+.foniture-community-inspiration-collection-card {
+    width: 33.33%;
+}
+.foniture-community-inspiration-collection-card img {
+    width: 355px;
+}
+.mpd {
+    margin-top: 2.3em;
+}
+
+
+.foniture-community-beauty-your-space-section {
+    background-color: rgba(242, 245, 255, 1);
+}
+.foniture-community-beauty-your-space-content {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding: 3.1em 0;
+    position: relative;
+    width: 100%;
+    z-index: 0;
+}
+.foniture-community-beauty-your-space-card {
+    width: 50%;
+}
+.foniture-community-beauty-your-space-card h2 {
+    font-family: 'Monserrat Bold';
+    font-size: 32px;
+    color: rgba(51, 51, 51, 1);
+    margin: 0;
+}
+.foniture-community-beauty-your-space-card p {
+    font-family: 'Monserrat Regular';
+    font-size: 20px;
+    color: rgba(102, 102, 102, 1);
+    line-height: 1.9em;
+    margin: 1.3em 0;
+}
+.foniture-community-beauty-your-space-card a {
+    background-color: rgba(5, 76, 115, 1);
+    border-radius: 50px 50px;
+    box-sizing: border-box;
+    color: rgba(255, 255, 255, 1);
+    display: block;
+    font-family: 'Monserrat Bold';
+    font-size: 16px;
+    padding: 1.6em 2.6em;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: center;
+    width: 230px;
+}
+.foniture-community-beauty-your-space-card-image {
+    background-image: url('../images/forniture-community-people-example.png');
+    background-repeat: no-repeat;
+    background-position: center left 40%;
+    background-size: 227%;
+    height: 755px;
+    width: 500px;
+    border-radius: 40px 0 40px 0;
+    z-index: 0;
+}
+.forniture-community-beauty-your-space-circle {
+    background-color: rgba(9, 81, 59, 1);
+    border-radius: 50% 50%;
+    height: 372px;
+    width: 372px;
+    position: absolute;
+    right: 3%;
+    top: 25%;
+    z-index: -1;
+}
+
+
+.foniture-community-browse-the-range-section {
+    text-align: center;
+    padding: 1.6em 0;
+    border-bottom: 1px solid rgba(215, 214, 214, 1);
+}
+.foniture-community-browse-the-range-title h1 {
+    font-family: 'Monserrat Bold';
+    font-size: 32px;
+    color: rgba(51, 51, 51, 1);
+}
+.foniture-community-browse-the-range-title p {
+    font-family: 'Monserrat Regular';
+    font-size: 20px;
+    color: rgba(102, 102, 102, 1);
+    margin: 0 0 1.7em;
+}
+.foniture-community-browse-the-range-content {
+    display: flex;
+    width: 100%;
+}
+.foniture-community-browse-the-range-card {
+    width: 33.33%;
+}
+.foniture-community-browse-the-range-card img {
+    width: 380px;
+}
+.foniture-community-browse-the-range-card p {
+    font-family: 'Monserrat SemiBold';
+    font-size: 24px;
+    color: rgba(51, 51, 51, 1);
+}
+
+
+.foniture-community-how-it-works-section {
+    padding: 3.6em 0;
+}
+.foniture-community-how-it-works-title {
+    text-align: center;
+}
+.foniture-community-how-it-works-title h1 {
+    font-family: 'Monserrat Bold';
+    font-size: 32px;
+    color: rgba(51, 51, 51, 1);
+    margin: 0;
+}
+.foniture-community-how-it-works-title p {
+    font-family: 'Monserrat Regular';
+    font-size: 20px;
+    color: rgba(102, 102, 102, 1);
+    line-height: 1.9em;
+    margin: 1.3em 0;
+}
+.foniture-community-how-it-works-container {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+.forniture-community-ho-it-works-column {
+    width: 33.33%;
+}
+.foniture-community-how-it-works-card {
+    position: relative;
+}
+.foniture-community-how-it-works-card img {
+    border-radius: 10px 10px;
+    width: 100%;
+}
+.foniture-community-how-it-works-card .numbered-container { 
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: -55px;
+    left: 0;
+    width: 100%;
+}
+.foniture-community-how-it-works-card .numbered-bg {
+    background-color: rgba(17, 17, 17, 1);
+    border-radius: 50% 50%;
+    width: 90px;
+    height: 90px;
+    border: 15px solid rgba(255, 255, 255, 1);
+}
+.foniture-community-how-it-works-card .numbered-bg .numbered {
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Monserrat Bold';
+    font-size: 24px;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foniture-community-how-it-works-desc {
+    text-align: center;
+    margin: 4.6em 1.6em;
+}
+.foniture-community-how-it-works-desc h4 {
+    font-family: 'Monserrat Bold';
+    font-size: 24px;
+    color: rgba(51, 51, 51, 1);
+    margin: 0;
+}
+.foniture-community-how-it-works-desc p {
+    font-family: 'Monserrat Regular';
+    font-size: 18px;
+    color: rgba(102, 102, 102, 1);
+}
+
+
+.foniture-community-sign-up-list-section {
+    text-align: center;
+    background-color: rgba(242, 245, 255, 1);
+    padding: 3.4em 0;
+}
+.foniture-community-sign-up-title h1 {
+    font-family: 'Monserrat Bold';
+    font-size: 24px;
+    color: rgba(51, 51, 51, 1);
+    margin: 0;
+}
+.foniture-community-sign-up-title p {
+    font-family: 'Monserrat Regular';
+    font-size: 20px;
+    color: rgba(102, 102, 102, 1);
+    line-height: 1.9em;
+}
+.foniture-community-sign-up-form {
+    margin: 2.6em 0 0.3em 0;
+}
+.foniture-community-sign-up-form form .sign-up-email {
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 1);
+    border-top: 1px solid rgba(5, 76, 115, 1);
+    border-left: 1px solid rgba(5, 76, 115, 1);
+    border-bottom: 1px solid rgba(5, 76, 115, 1);
+    border-right: none;
+    border-radius: 3px 0 0 3px;
+    font-family: 'Monserrat Regular';
+    font-size: 16px;
+    color: rgba(1, 28, 66, 1);
+    padding: 1.4em 1.9em 1.4em 1.9em;
+    width: 340px;
+    outline: none;
+}
+.foniture-community-sign-up-form form .sign-up-submit {
+    box-sizing: border-box;
+    background-color: rgba(5, 76, 115, 1);
+    border: none;
+    border-radius: 3px 3px;
+    font-family: 'Monserrat Regular';
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+    padding: 1.47em 2.6em;
+    margin-left: -6px;
+    cursor: pointer;
+}
+
+
+.foniture-community-social-section {
+    background-color: rgba(3, 52, 79, 1);
+    padding: 3.6em 4.9em;
+}
+.foniture-community-social-content {
+    display: flex;
+    width: 100%;
+}
+.foniture-community-social-column:first-child {
+    width: 35%;
+}
+.foniture-community-social-column:last-child {
+    width: 65%;
+}
+.foniture-community-social-column h3 {
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Monserrat Bold';
+    font-size: 24px;
+    margin: 0;
+}
+.foniture-community-social-column p {
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Monserrat Regular';
+    font-size: 16px;
+    margin: 1.3em 0;
+    line-height: 2.1em;
+}
+.foniture-community-social-header h3 {
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Monserrat Bold';
+    font-size: 24px;
+    margin: 0 0 1em 0;
+}
+.foniture-community-social-gallery {
+    display: flex;
+    width: 100%;
+}
+.foniture-community-social-card {
+    width: 25%;
+}
+.foniture-community-social-card img {
+    border-radius: 2px 2px;
+    width: 175px;
+}
